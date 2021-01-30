@@ -1,0 +1,15 @@
+|Schematic
+f <= inst.DB_MAX_OUTPUT_PORT_TYPE
+B => inst4.IN0
+B => inst4.IN1
+B => inst7.IN0
+B => inst7.IN1
+A => inst3.IN1
+A => inst6.IN0
+A => inst6.IN1
+D => inst5.IN0
+D => inst5.IN1
+D => inst1.IN2
+C => inst2.IN1
+
+

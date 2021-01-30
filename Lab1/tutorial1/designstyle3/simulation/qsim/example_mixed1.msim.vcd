@@ -1,0 +1,242 @@
+$comment
+	File created using the following command:
+		vcd file example_mixed1.msim.vcd -direction
+$end
+$date
+	Sun Aug 25 16:31:52 2019
+$end
+$version
+	ModelSim Version 10.4d
+$end
+$timescale
+	1ps
+$end
+
+$scope module example_mixed1_vlg_vec_tst $end
+$var reg 1 ! w1 $end
+$var reg 1 " w2 $end
+$var reg 1 # w3 $end
+$var reg 1 $ w4 $end
+$var reg 1 % x2 $end
+$var wire 1 & f $end
+
+$scope module i1 $end
+$var wire 1 ' gnd $end
+$var wire 1 ( vcc $end
+$var wire 1 ) unknown $end
+$var tri1 1 * devclrn $end
+$var tri1 1 + devpor $end
+$var tri1 1 , devoe $end
+$var wire 1 - ~QUARTUS_CREATED_GND~I_combout $end
+$var wire 1 . w2~input_o $end
+$var wire 1 / w1~input_o $end
+$var wire 1 0 w3~input_o $end
+$var wire 1 1 x2~input_o $end
+$var wire 1 2 w4~input_o $end
+$var wire 1 3 inst1|inst5~0_combout $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+#0
+$dumpvars
+0!
+0"
+0#
+0$
+0%
+0&
+0'
+1(
+x)
+1*
+1+
+1,
+0-
+0.
+0/
+00
+01
+02
+03
+$end
+#10000
+1%
+11
+#20000
+1$
+0%
+12
+01
+#30000
+1%
+11
+#40000
+1#
+0$
+0%
+10
+02
+01
+#50000
+1%
+11
+#60000
+1$
+0%
+12
+01
+#70000
+1%
+11
+13
+1&
+#80000
+1"
+0#
+0$
+0%
+1.
+00
+02
+01
+03
+0&
+#90000
+1%
+11
+#100000
+1$
+0%
+12
+01
+13
+1&
+#110000
+1%
+11
+03
+0&
+#120000
+1#
+0$
+0%
+10
+02
+01
+#130000
+1%
+11
+#140000
+1$
+0%
+12
+01
+13
+1&
+#150000
+1%
+11
+#160000
+1!
+0"
+0#
+0$
+0%
+1/
+0.
+00
+02
+01
+03
+0&
+#170000
+1%
+11
+#180000
+1$
+0%
+12
+01
+#190000
+1%
+11
+#200000
+1#
+0$
+0%
+10
+02
+01
+13
+1&
+#210000
+1%
+11
+03
+0&
+#220000
+1$
+0%
+12
+01
+13
+1&
+#230000
+1%
+11
+#240000
+1"
+0#
+0$
+0%
+1.
+00
+02
+01
+03
+0&
+#250000
+1%
+11
+13
+1&
+#260000
+1$
+0%
+12
+01
+#270000
+1%
+11
+#280000
+1#
+0$
+0%
+10
+02
+01
+#290000
+1%
+11
+#300000
+1$
+0%
+12
+01
+#310000
+1%
+11
+#320000
+0!
+0"
+0#
+0$
+0%
+0/
+0.
+00
+02
+01
+03
+0&
+#1000000

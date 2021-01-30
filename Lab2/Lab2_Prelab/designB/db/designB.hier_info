@@ -1,0 +1,16 @@
+|designB
+pin_name4 <= inst.DB_MAX_OUTPUT_PORT_TYPE
+a => inst1.IN0
+a => inst7.IN0
+a => inst2.IN0
+a => inst8.IN0
+b => inst1.IN1
+b => inst3.IN1
+b => inst6.IN0
+b => inst9.IN0
+c => inst5.IN0
+c => inst3.IN2
+c => inst2.IN2
+c => inst10.IN0
+
+

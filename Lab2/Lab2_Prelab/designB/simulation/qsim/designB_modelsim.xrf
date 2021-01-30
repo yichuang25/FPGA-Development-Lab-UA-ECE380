@@ -1,0 +1,10 @@
+vendor_name = ModelSim
+source_file = 1, C:/ECE-380LAB/Lab2/designB/designB_schematic.bdf
+source_file = 1, C:/ECE-380LAB/Lab2/designB/designB_test.vwf
+source_file = 1, C:/ECE-380LAB/Lab2/designB/designb.bdf
+design_name = designB
+instance = comp, \pin_name4~output , pin_name4~output, designB, 1
+instance = comp, \a~input , a~input, designB, 1
+instance = comp, \b~input , b~input, designB, 1
+instance = comp, \c~input , c~input, designB, 1
+instance = comp, \inst~0 , inst~0, designB, 1

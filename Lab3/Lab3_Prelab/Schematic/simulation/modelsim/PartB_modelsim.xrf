@@ -1,0 +1,11 @@
+vendor_name = ModelSim
+source_file = 1, C:/ECE-380LAB/Lab3_Prelab/Schematic/PartB.bdf
+source_file = 1, C:/ECE-380LAB/Lab3_Prelab/Schematic/db/PartB.cbx.xml
+design_name = PartB
+instance = comp, \F~output , F~output, PartB, 1
+instance = comp, \A~input , A~input, PartB, 1
+instance = comp, \B~input , B~input, PartB, 1
+instance = comp, \C1~input , C1~input, PartB, 1
+instance = comp, \C0~input , C0~input, PartB, 1
+instance = comp, \inst~0 , inst~0, PartB, 1
+instance = comp, \~QUARTUS_CREATED_GND~I , ~QUARTUS_CREATED_GND~I, PartB, 1

@@ -1,0 +1,52 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dC:/ECE-380LAB/Lab2/designB/simulation/qsim
+vdesignB
+Z1 !s110 1567996345
+!i10b 1
+!s100 z=WOGX_l2i<hNS>7JS8C42
+I]C9WG6Q]VRL;f:YhK5Jg^0
+Z2 VDg1SIo80bB@j0V0VzS_@n1
+R0
+w1567996344
+8designB.vo
+FdesignB.vo
+L0 32
+Z3 OV;L;10.4d;61
+r1
+!s85 0
+31
+Z4 !s108 1567996345.000000
+!s107 designB.vo|
+!s90 -work|work|designB.vo|
+!i113 1
+Z5 o-work work
+ndesign@b
+vdesignB_vlg_vec_tst
+R1
+!i10b 1
+!s100 8anb0JozX3k1Nk2G1;R3h0
+Icb>S@Pz]@?mZPR07o7CjV0
+R2
+R0
+w1567996343
+8designB_test.vwf.vt
+FdesignB_test.vwf.vt
+L0 30
+R3
+r1
+!s85 0
+31
+R4
+!s107 designB_test.vwf.vt|
+!s90 -work|work|designB_test.vwf.vt|
+!i113 1
+R5
+ndesign@b_vlg_vec_tst

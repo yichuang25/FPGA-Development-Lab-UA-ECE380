@@ -1,0 +1,15 @@
+vendor_name = ModelSim
+source_file = 1, C:/ECE-380LAB/Lab4_Prelab/SOP/VHDL/vhdl.vhd
+source_file = 1, c:/altera_lite/16.0/quartus/libraries/vhdl/ieee/prmtvs_b.vhd
+source_file = 1, c:/altera_lite/16.0/quartus/libraries/vhdl/ieee/prmtvs_p.vhd
+source_file = 1, c:/altera_lite/16.0/quartus/libraries/vhdl/ieee/timing_b.vhd
+source_file = 1, c:/altera_lite/16.0/quartus/libraries/vhdl/ieee/timing_p.vhd
+source_file = 1, C:/ECE-380LAB/Lab4_Prelab/SOP/VHDL/db/vhdl.cbx.xml
+design_name = vhdl
+instance = comp, \f~output , f~output, vhdl, 1
+instance = comp, \D~input , D~input, vhdl, 1
+instance = comp, \A~input , A~input, vhdl, 1
+instance = comp, \B~input , B~input, vhdl, 1
+instance = comp, \C~input , C~input, vhdl, 1
+instance = comp, \f~0 , f~0, vhdl, 1
+instance = comp, \~QUARTUS_CREATED_GND~I , ~QUARTUS_CREATED_GND~I, vhdl, 1

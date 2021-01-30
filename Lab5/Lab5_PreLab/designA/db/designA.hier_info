@@ -1,0 +1,20 @@
+|designA
+Cin => _.DATAB
+X[0] => _.DATAD
+X[1] => _.DATAD
+X[2] => _.DATAD
+X[3] => Over.IN1
+X[3] => _.DATAD
+Y[0] => _.DATAC
+Y[1] => _.DATAC
+Y[2] => _.DATAC
+Y[3] => Over.IN0
+Y[3] => _.DATAC
+S[0] <= _.SUM_OUT
+S[1] <= _.SUM_OUT
+S[2] <= _.SUM_OUT
+S[3] <= _.SUM_OUT
+Cout <= _.SUM_OUT
+Over <= Over.DB_MAX_OUTPUT_PORT_TYPE
+
+

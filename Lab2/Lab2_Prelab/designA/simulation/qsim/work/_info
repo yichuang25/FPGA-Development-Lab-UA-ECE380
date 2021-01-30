@@ -1,0 +1,52 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dC:/lab2/simulation/qsim
+vdesignA
+Z1 !s110 1567994868
+!i10b 1
+!s100 NLmZfN^=2:[lo9]GFKEXP0
+Ih58LR_PUQA^=D[;93ZTO02
+Z2 VDg1SIo80bB@j0V0VzS_@n1
+R0
+w1567994867
+8designA.vo
+FdesignA.vo
+L0 32
+Z3 OV;L;10.4d;61
+r1
+!s85 0
+31
+Z4 !s108 1567994868.000000
+!s107 designA.vo|
+!s90 -work|work|designA.vo|
+!i113 1
+Z5 o-work work
+ndesign@a
+vdesignA_vlg_vec_tst
+R1
+!i10b 1
+!s100 Xg>8jSFe@X9Y<i8fjo[=Y3
+ID9`7NB54E0QR572:iJ9^J3
+R2
+R0
+w1567994866
+8overwrite_clock.vwf.vt
+Foverwrite_clock.vwf.vt
+L0 30
+R3
+r1
+!s85 0
+31
+R4
+!s107 overwrite_clock.vwf.vt|
+!s90 -work|work|overwrite_clock.vwf.vt|
+!i113 1
+R5
+ndesign@a_vlg_vec_tst

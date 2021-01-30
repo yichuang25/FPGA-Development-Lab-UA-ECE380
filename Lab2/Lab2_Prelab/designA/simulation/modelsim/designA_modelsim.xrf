@@ -1,0 +1,16 @@
+vendor_name = ModelSim
+source_file = 1, C:/ECE-380LAB/Lab2/designA/designA_vhdl.vhd
+source_file = 1, C:/ECE-380LAB/Lab2/designA/designA_test_waveform.vwf
+source_file = 1, C:/ECE-380LAB/Lab2/designA/overwrite_clock.vwf
+source_file = 1, c:/altera_lite/16.0/quartus/libraries/vhdl/ieee/prmtvs_b.vhd
+source_file = 1, c:/altera_lite/16.0/quartus/libraries/vhdl/ieee/prmtvs_p.vhd
+source_file = 1, c:/altera_lite/16.0/quartus/libraries/vhdl/ieee/timing_b.vhd
+source_file = 1, c:/altera_lite/16.0/quartus/libraries/vhdl/ieee/timing_p.vhd
+source_file = 1, C:/ECE-380LAB/Lab2/designA/db/designA.cbx.xml
+design_name = designA
+instance = comp, \f~output , f~output, designA, 1
+instance = comp, \b~input , b~input, designA, 1
+instance = comp, \c~input , c~input, designA, 1
+instance = comp, \a~input , a~input, designA, 1
+instance = comp, \f~0 , f~0, designA, 1
+instance = comp, \~QUARTUS_CREATED_GND~I , ~QUARTUS_CREATED_GND~I, designA, 1

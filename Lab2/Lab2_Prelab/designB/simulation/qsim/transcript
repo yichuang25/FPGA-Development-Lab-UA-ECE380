@@ -1,0 +1,29 @@
+# do designB.do
+# Model Technology ModelSim ALTERA vlog 10.4d Compiler 2015.12 Dec 30 2015
+# Start time: 21:32:25 on Sep 08,2019
+# vlog -work work designB.vo 
+# -- Compiling module designB
+# 
+# Top level modules:
+# 	designB
+# End time: 21:32:25 on Sep 08,2019, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim ALTERA vlog 10.4d Compiler 2015.12 Dec 30 2015
+# Start time: 21:32:25 on Sep 08,2019
+# vlog -work work designB_test.vwf.vt 
+# -- Compiling module designB_vlg_vec_tst
+# 
+# Top level modules:
+# 	designB_vlg_vec_tst
+# End time: 21:32:25 on Sep 08,2019, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vsim -novopt -c -t 1ps -L cyclonev_ver -L altera_ver -L altera_mf_ver -L 220model_ver -L sgate_ver -L altera_lnsim_ver work.designB_vlg_vec_tst -voptargs=""+acc"" 
+# Start time: 21:32:25 on Sep 08,2019
+# Loading work.designB_vlg_vec_tst
+# Loading work.designB
+# ** Note: $stop    : designB_test.vwf.vt(49)
+#    Time: 160 ns  Iteration: 0  Instance: /designB_vlg_vec_tst
+# Break in Module designB_vlg_vec_tst at designB_test.vwf.vt line 49
+# Stopped at designB_test.vwf.vt line 49
+# End time: 21:32:26 on Sep 08,2019, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0

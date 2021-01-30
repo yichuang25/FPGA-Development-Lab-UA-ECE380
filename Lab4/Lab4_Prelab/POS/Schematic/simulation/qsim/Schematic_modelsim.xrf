@@ -1,0 +1,12 @@
+vendor_name = ModelSim
+source_file = 1, C:/ECE-380LAB/Lab4_Prelab/POS/Schematic/Schematic.bdf
+source_file = 1, C:/ECE-380LAB/Lab4_Prelab/POS/Schematic/Waveform.vwf
+source_file = 1, C:/ECE-380LAB/Lab4_Prelab/POS/Schematic/db/Schematic.cbx.xml
+design_name = Schematic
+instance = comp, \f~output , f~output, Schematic, 1
+instance = comp, \B~input , B~input, Schematic, 1
+instance = comp, \D~input , D~input, Schematic, 1
+instance = comp, \A~input , A~input, Schematic, 1
+instance = comp, \C~input , C~input, Schematic, 1
+instance = comp, \inst~0 , inst~0, Schematic, 1
+instance = comp, \~QUARTUS_CREATED_GND~I , ~QUARTUS_CREATED_GND~I, Schematic, 1

@@ -1,0 +1,27 @@
+# do partA.do
+# Model Technology ModelSim ALTERA vlog 10.4d Compiler 2015.12 Dec 30 2015
+# Start time: 13:24:45 on Sep 15,2019
+# vlog -work work partA.vo 
+# -- Compiling module partA
+# 
+# Top level modules:
+# 	partA
+# End time: 13:24:45 on Sep 15,2019, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim ALTERA vlog 10.4d Compiler 2015.12 Dec 30 2015
+# Start time: 13:24:45 on Sep 15,2019
+# vlog -work work vhdl_test.vwf.vt 
+# -- Compiling module partA_vlg_vec_tst
+# 
+# Top level modules:
+# 	partA_vlg_vec_tst
+# End time: 13:24:45 on Sep 15,2019, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vsim -novopt -c -t 1ps -L cyclonev_ver -L altera_ver -L altera_mf_ver -L 220model_ver -L sgate_ver -L altera_lnsim_ver work.partA_vlg_vec_tst -voptargs=""+acc"" 
+# Start time: 13:24:45 on Sep 15,2019
+# Loading work.partA_vlg_vec_tst
+# Loading work.partA
+# ** Note: $finish    : vhdl_test.vwf.vt(51)
+#    Time: 160 ns  Iteration: 0  Instance: /partA_vlg_vec_tst
+# End time: 13:24:46 on Sep 15,2019, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0

@@ -1,0 +1,14 @@
+vendor_name = ModelSim
+source_file = 1, C:/ECE-380LAB/Lab7_PreLab/DesignB/DesignB.bdf
+source_file = 1, C:/ECE-380LAB/Lab7_PreLab/DesignB/Waveform.vwf
+source_file = 1, c:/altera_lite/16.0/quartus/libraries/others/maxplus2/74154.bdf
+design_name = DesignB
+instance = comp, \F1~output , F1~output, DesignB, 1
+instance = comp, \F2~output , F2~output, DesignB, 1
+instance = comp, \X1~input , X1~input, DesignB, 1
+instance = comp, \EN~input , EN~input, DesignB, 1
+instance = comp, \X3~input , X3~input, DesignB, 1
+instance = comp, \X2~input , X2~input, DesignB, 1
+instance = comp, \X0~input , X0~input, DesignB, 1
+instance = comp, \1~0 , 1~0, DesignB, 1
+instance = comp, \~QUARTUS_CREATED_GND~I , ~QUARTUS_CREATED_GND~I, DesignB, 1

@@ -1,0 +1,194 @@
+// Copyright (C) 1991-2016 Altera Corporation. All rights reserved.
+// Your use of Altera Corporation's design tools, logic functions 
+// and other software and tools, and its AMPP partner logic 
+// functions, and any output files from any of the foregoing 
+// (including device programming or simulation files), and any 
+// associated documentation or information are expressly subject 
+// to the terms and conditions of the Altera Program License 
+// Subscription Agreement, the Altera Quartus Prime License Agreement,
+// the Altera MegaCore Function License Agreement, or other 
+// applicable license agreement, including, without limitation, 
+// that your use is for the sole purpose of programming logic 
+// devices manufactured by Altera and sold by Altera or its 
+// authorized distributors.  Please refer to the applicable 
+// agreement for further details.
+
+// VENDOR "Altera"
+// PROGRAM "Quartus Prime"
+// VERSION "Version 16.0.0 Build 211 04/27/2016 SJ Lite Edition"
+
+// DATE "08/25/2019 16:31:51"
+
+// 
+// Device: Altera 5CSEMA5F31C6 Package FBGA896
+// 
+
+// 
+// This Verilog file should be used for ModelSim-Altera (Verilog) only
+// 
+
+`timescale 1 ps/ 1 ps
+
+module example_mixed1 (
+	f,
+	w1,
+	w2,
+	w3,
+	w4,
+	x2);
+output 	f;
+input 	w1;
+input 	w2;
+input 	w3;
+input 	w4;
+input 	x2;
+
+// Design Ports Information
+// f	=>  Location: PIN_AA25,	 I/O Standard: 2.5 V,	 Current Strength: Default
+// w1	=>  Location: PIN_AE26,	 I/O Standard: 2.5 V,	 Current Strength: Default
+// w3	=>  Location: PIN_W21,	 I/O Standard: 2.5 V,	 Current Strength: Default
+// x2	=>  Location: PIN_AJ29,	 I/O Standard: 2.5 V,	 Current Strength: Default
+// w2	=>  Location: PIN_W22,	 I/O Standard: 2.5 V,	 Current Strength: Default
+// w4	=>  Location: PIN_AD27,	 I/O Standard: 2.5 V,	 Current Strength: Default
+
+
+wire gnd;
+wire vcc;
+wire unknown;
+
+assign gnd = 1'b0;
+assign vcc = 1'b1;
+assign unknown = 1'bx;
+
+tri1 devclrn;
+tri1 devpor;
+tri1 devoe;
+wire \~QUARTUS_CREATED_GND~I_combout ;
+wire \w2~input_o ;
+wire \w1~input_o ;
+wire \w3~input_o ;
+wire \x2~input_o ;
+wire \w4~input_o ;
+wire \inst1|inst5~0_combout ;
+
+
+// Location: IOOBUF_X89_Y9_N39
+cyclonev_io_obuf \f~output (
+	.i(\inst1|inst5~0_combout ),
+	.oe(vcc),
+	.dynamicterminationcontrol(gnd),
+	.seriesterminationcontrol(16'b0000000000000000),
+	.parallelterminationcontrol(16'b0000000000000000),
+	.devoe(devoe),
+	.o(f),
+	.obar());
+// synopsys translate_off
+defparam \f~output .bus_hold = "false";
+defparam \f~output .open_drain_output = "false";
+defparam \f~output .shift_series_termination_control = "false";
+// synopsys translate_on
+
+// Location: IOIBUF_X89_Y8_N21
+cyclonev_io_ibuf \w2~input (
+	.i(w2),
+	.ibar(gnd),
+	.dynamicterminationcontrol(gnd),
+	.o(\w2~input_o ));
+// synopsys translate_off
+defparam \w2~input .bus_hold = "false";
+defparam \w2~input .simulate_z_as = "z";
+// synopsys translate_on
+
+// Location: IOIBUF_X89_Y8_N38
+cyclonev_io_ibuf \w1~input (
+	.i(w1),
+	.ibar(gnd),
+	.dynamicterminationcontrol(gnd),
+	.o(\w1~input_o ));
+// synopsys translate_off
+defparam \w1~input .bus_hold = "false";
+defparam \w1~input .simulate_z_as = "z";
+// synopsys translate_on
+
+// Location: IOIBUF_X89_Y8_N4
+cyclonev_io_ibuf \w3~input (
+	.i(w3),
+	.ibar(gnd),
+	.dynamicterminationcontrol(gnd),
+	.o(\w3~input_o ));
+// synopsys translate_off
+defparam \w3~input .bus_hold = "false";
+defparam \w3~input .simulate_z_as = "z";
+// synopsys translate_on
+
+// Location: IOIBUF_X89_Y6_N38
+cyclonev_io_ibuf \x2~input (
+	.i(x2),
+	.ibar(gnd),
+	.dynamicterminationcontrol(gnd),
+	.o(\x2~input_o ));
+// synopsys translate_off
+defparam \x2~input .bus_hold = "false";
+defparam \x2~input .simulate_z_as = "z";
+// synopsys translate_on
+
+// Location: IOIBUF_X89_Y8_N55
+cyclonev_io_ibuf \w4~input (
+	.i(w4),
+	.ibar(gnd),
+	.dynamicterminationcontrol(gnd),
+	.o(\w4~input_o ));
+// synopsys translate_off
+defparam \w4~input .bus_hold = "false";
+defparam \w4~input .simulate_z_as = "z";
+// synopsys translate_on
+
+// Location: LABCELL_X88_Y8_N0
+cyclonev_lcell_comb \inst1|inst5~0 (
+// Equation(s):
+// \inst1|inst5~0_combout  = ( \w4~input_o  & ( (!\w1~input_o  & ((!\x2~input_o  & (\w2~input_o )) # (\x2~input_o  & ((\w3~input_o ))))) # (\w1~input_o  & (((\w3~input_o )) # (\w2~input_o ))) ) ) # ( !\w4~input_o  & ( (\w1~input_o  & ((!\x2~input_o  & 
+// ((\w3~input_o ))) # (\x2~input_o  & (\w2~input_o )))) ) )
+
+	.dataa(!\w2~input_o ),
+	.datab(!\w1~input_o ),
+	.datac(!\w3~input_o ),
+	.datad(!\x2~input_o ),
+	.datae(!\w4~input_o ),
+	.dataf(gnd),
+	.datag(gnd),
+	.cin(gnd),
+	.sharein(gnd),
+	.combout(\inst1|inst5~0_combout ),
+	.sumout(),
+	.cout(),
+	.shareout());
+// synopsys translate_off
+defparam \inst1|inst5~0 .extended_lut = "off";
+defparam \inst1|inst5~0 .lut_mask = 64'h0311571F0311571F;
+defparam \inst1|inst5~0 .shared_arith = "off";
+// synopsys translate_on
+
+// Location: LABCELL_X17_Y38_N0
+cyclonev_lcell_comb \~QUARTUS_CREATED_GND~I (
+// Equation(s):
+
+	.dataa(gnd),
+	.datab(gnd),
+	.datac(gnd),
+	.datad(gnd),
+	.datae(gnd),
+	.dataf(gnd),
+	.datag(gnd),
+	.cin(gnd),
+	.sharein(gnd),
+	.combout(\~QUARTUS_CREATED_GND~I_combout ),
+	.sumout(),
+	.cout(),
+	.shareout());
+// synopsys translate_off
+defparam \~QUARTUS_CREATED_GND~I .extended_lut = "off";
+defparam \~QUARTUS_CREATED_GND~I .lut_mask = 64'h0000000000000000;
+defparam \~QUARTUS_CREATED_GND~I .shared_arith = "off";
+// synopsys translate_on
+
+endmodule

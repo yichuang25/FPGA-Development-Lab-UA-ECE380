@@ -1,0 +1,52 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dC:/ECE-380LAB/Lab6_PreLab/designA/simulation/qsim
+vdesignA
+!s110 1570417727
+!i10b 1
+!s100 QjhM]:d0do0?XG03ffaGz2
+IGRT6>V7Y:RKge=ESCRfbb1
+Z1 VDg1SIo80bB@j0V0VzS_@n1
+R0
+w1570417727
+8designA.vo
+FdesignA.vo
+L0 32
+Z2 OV;L;10.4d;61
+r1
+!s85 0
+31
+!s108 1570417727.000000
+!s107 designA.vo|
+!s90 -work|work|designA.vo|
+!i113 1
+Z3 o-work work
+ndesign@a
+vdesignA_vlg_vec_tst
+!s110 1570417728
+!i10b 1
+!s100 gKhZJd6=odSHS?gW;I?US1
+I@B8<>z0gYVW77^ORnJFk11
+R1
+R0
+w1570417725
+8Waveform.vwf.vt
+FWaveform.vwf.vt
+L0 30
+R2
+r1
+!s85 0
+31
+!s108 1570417728.000000
+!s107 Waveform.vwf.vt|
+!s90 -work|work|Waveform.vwf.vt|
+!i113 1
+R3
+ndesign@a_vlg_vec_tst

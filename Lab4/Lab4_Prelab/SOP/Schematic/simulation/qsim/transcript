@@ -1,0 +1,29 @@
+# do Schematic.do
+# Model Technology ModelSim ALTERA vlog 10.4d Compiler 2015.12 Dec 30 2015
+# Start time: 13:28:22 on Sep 21,2019
+# vlog -work work Schematic.vo 
+# -- Compiling module Schematic
+# 
+# Top level modules:
+# 	Schematic
+# End time: 13:28:22 on Sep 21,2019, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim ALTERA vlog 10.4d Compiler 2015.12 Dec 30 2015
+# Start time: 13:28:22 on Sep 21,2019
+# vlog -work work Waveform.vwf.vt 
+# -- Compiling module Schematic_vlg_vec_tst
+# 
+# Top level modules:
+# 	Schematic_vlg_vec_tst
+# End time: 13:28:22 on Sep 21,2019, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vsim -novopt -c -t 1ps -L cyclonev_ver -L altera_ver -L altera_mf_ver -L 220model_ver -L sgate_ver -L altera_lnsim_ver work.Schematic_vlg_vec_tst -voptargs=""+acc"" 
+# Start time: 13:28:22 on Sep 21,2019
+# Loading work.Schematic_vlg_vec_tst
+# Loading work.Schematic
+# ** Note: $stop    : Waveform.vwf.vt(51)
+#    Time: 160 ns  Iteration: 0  Instance: /Schematic_vlg_vec_tst
+# Break in Module Schematic_vlg_vec_tst at Waveform.vwf.vt line 51
+# Stopped at Waveform.vwf.vt line 51
+# End time: 13:28:22 on Sep 21,2019, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0

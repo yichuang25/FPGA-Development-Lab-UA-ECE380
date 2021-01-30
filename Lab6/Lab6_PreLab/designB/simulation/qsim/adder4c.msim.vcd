@@ -1,0 +1,166 @@
+$comment
+	File created using the following command:
+		vcd file adder4c.msim.vcd -direction
+$end
+$date
+	Sun Oct 06 22:30:14 2019
+$end
+$version
+	ModelSim Version 10.4d
+$end
+$timescale
+	1ps
+$end
+
+$scope module adder4c_vlg_vec_tst $end
+$var reg 4 ! a [3:0] $end
+$var reg 4 " b [3:0] $end
+$var reg 1 # cin $end
+$var wire 1 $ cout $end
+$var wire 1 % s [3] $end
+$var wire 1 & s [2] $end
+$var wire 1 ' s [1] $end
+$var wire 1 ( s [0] $end
+
+$scope module i1 $end
+$var wire 1 ) gnd $end
+$var wire 1 * vcc $end
+$var wire 1 + unknown $end
+$var tri1 1 , devclrn $end
+$var tri1 1 - devpor $end
+$var tri1 1 . devoe $end
+$var wire 1 / ~QUARTUS_CREATED_GND~I_combout $end
+$var wire 1 0 cin~input_o $end
+$var wire 1 1 a[0]~input_o $end
+$var wire 1 2 b[0]~input_o $end
+$var wire 1 3 s~0_combout $end
+$var wire 1 4 b[1]~input_o $end
+$var wire 1 5 a[1]~input_o $end
+$var wire 1 6 s~1_combout $end
+$var wire 1 7 a[2]~input_o $end
+$var wire 1 8 b[2]~input_o $end
+$var wire 1 9 s~2_combout $end
+$var wire 1 : b[3]~input_o $end
+$var wire 1 ; a[3]~input_o $end
+$var wire 1 < s~3_combout $end
+$var wire 1 = c~0_combout $end
+$var wire 1 > c [4] $end
+$var wire 1 ? c [3] $end
+$var wire 1 @ c [2] $end
+$var wire 1 A c [1] $end
+$var wire 1 B c [0] $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+#0
+$dumpvars
+b1000 !
+b1110 "
+0#
+1$
+0(
+1'
+1&
+0%
+0)
+1*
+x+
+1,
+1-
+1.
+0/
+00
+01
+02
+03
+14
+05
+16
+07
+18
+19
+1:
+1;
+0<
+1=
+zB
+zA
+0@
+z?
+z>
+$end
+#20000
+b1100 !
+b1110 !
+b110 "
+b100 "
+b101 "
+12
+04
+0:
+15
+17
+09
+13
+1(
+0&
+#40000
+b1 "
+b1100 !
+b11 "
+05
+14
+08
+0=
+1<
+19
+1&
+1%
+0$
+#60000
+b100 !
+b101 !
+b1 !
+b10 "
+b11 !
+02
+11
+15
+07
+0;
+1@
+0<
+09
+06
+0'
+0&
+0%
+19
+1&
+#80000
+b1010 "
+b1110 "
+b1011 !
+b1010 !
+b1111 "
+b1000 !
+01
+05
+1;
+12
+18
+1:
+0@
+1=
+1<
+09
+16
+1'
+0&
+1%
+1$
+0<
+19
+1&
+0%
+#100000

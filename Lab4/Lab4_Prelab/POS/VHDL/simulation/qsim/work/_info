@@ -1,0 +1,50 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dC:/ECE-380LAB/Lab4_Prelab/POS/VHDL/simulation/qsim
+vvhdl
+Z1 !s110 1569090910
+!i10b 1
+!s100 8z>K^4b@k:d^l7P[RIcYb0
+I8aWjOa:MD:K8DBD0SmlR43
+Z2 VDg1SIo80bB@j0V0VzS_@n1
+R0
+w1569090909
+8vhdl.vo
+Fvhdl.vo
+L0 32
+Z3 OV;L;10.4d;61
+r1
+!s85 0
+31
+Z4 !s108 1569090910.000000
+!s107 vhdl.vo|
+!s90 -work|work|vhdl.vo|
+!i113 1
+Z5 o-work work
+vvhdl_vlg_vec_tst
+R1
+!i10b 1
+!s100 7ef[@0fLZbgB;PZ@L`^DM0
+IXJ2YaE[PVjMFAK8G6zXab2
+R2
+R0
+w1569090908
+8Waveform.vwf.vt
+FWaveform.vwf.vt
+L0 30
+R3
+r1
+!s85 0
+31
+R4
+!s107 Waveform.vwf.vt|
+!s90 -work|work|Waveform.vwf.vt|
+!i113 1
+R5

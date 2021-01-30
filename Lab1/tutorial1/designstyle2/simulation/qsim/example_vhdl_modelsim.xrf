@@ -1,0 +1,14 @@
+vendor_name = ModelSim
+source_file = 1, C:/tutorial1/designstyle2/example_vhdl.vhd
+source_file = 1, C:/tutorial1/designstyle2/example_vhdl.vwf
+source_file = 1, c:/altera_lite/16.0/quartus/libraries/vhdl/ieee/prmtvs_b.vhd
+source_file = 1, c:/altera_lite/16.0/quartus/libraries/vhdl/ieee/prmtvs_p.vhd
+source_file = 1, c:/altera_lite/16.0/quartus/libraries/vhdl/ieee/timing_b.vhd
+source_file = 1, c:/altera_lite/16.0/quartus/libraries/vhdl/ieee/timing_p.vhd
+source_file = 1, C:/tutorial1/designstyle2/db/example_vhdl.cbx.xml
+design_name = example_vhdl
+instance = comp, \f~output , f~output, example_vhdl, 1
+instance = comp, \x1~input , x1~input, example_vhdl, 1
+instance = comp, \x2~input , x2~input, example_vhdl, 1
+instance = comp, \x3~input , x3~input, example_vhdl, 1
+instance = comp, \f~0 , f~0, example_vhdl, 1

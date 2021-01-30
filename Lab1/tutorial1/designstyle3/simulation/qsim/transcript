@@ -1,0 +1,29 @@
+# do example_mixed1.do
+# ** Warning: (vlib-34) Library already exists at "work".
+# 
+# Model Technology ModelSim ALTERA vlog 10.4d Compiler 2015.12 Dec 30 2015
+# Start time: 16:31:51 on Aug 25,2019
+# vlog -work work example_mixed1.vo 
+# -- Compiling module example_mixed1
+# 
+# Top level modules:
+# 	example_mixed1
+# End time: 16:31:52 on Aug 25,2019, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim ALTERA vlog 10.4d Compiler 2015.12 Dec 30 2015
+# Start time: 16:31:52 on Aug 25,2019
+# vlog -work work example_mixed1.vwf.vt 
+# -- Compiling module example_mixed1_vlg_vec_tst
+# 
+# Top level modules:
+# 	example_mixed1_vlg_vec_tst
+# End time: 16:31:52 on Aug 25,2019, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vsim -novopt -c -t 1ps -L cyclonev_ver -L altera_ver -L altera_mf_ver -L 220model_ver -L sgate_ver -L altera_lnsim_ver work.example_mixed1_vlg_vec_tst -voptargs=""+acc"" 
+# Start time: 16:31:52 on Aug 25,2019
+# Loading work.example_mixed1_vlg_vec_tst
+# Loading work.example_mixed1
+# ** Note: $finish    : example_mixed1.vwf.vt(53)
+#    Time: 1 us  Iteration: 0  Instance: /example_mixed1_vlg_vec_tst
+# End time: 16:31:52 on Aug 25,2019, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0

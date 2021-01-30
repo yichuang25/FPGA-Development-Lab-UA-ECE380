@@ -1,0 +1,50 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dC:/tutorial1/designstyle3/simulation/qsim
+vexample_mixed1
+Z1 !s110 1566768712
+!i10b 1
+!s100 L3>8I_zNU4O7KY`[5Pd3;1
+I>SgaY60WSKfW6B^LTY_mG1
+Z2 VDg1SIo80bB@j0V0VzS_@n1
+R0
+w1566768711
+8example_mixed1.vo
+Fexample_mixed1.vo
+L0 32
+Z3 OV;L;10.4d;61
+r1
+!s85 0
+31
+!s108 1566768711.000000
+!s107 example_mixed1.vo|
+!s90 -work|work|example_mixed1.vo|
+!i113 1
+Z4 o-work work
+vexample_mixed1_vlg_vec_tst
+R1
+!i10b 1
+!s100 ;Wz@2U2^NkAR6YJ1:GF<>1
+INhlHUN2nRzkO?Q[bR5U@?1
+R2
+R0
+w1566768709
+8example_mixed1.vwf.vt
+Fexample_mixed1.vwf.vt
+L0 30
+R3
+r1
+!s85 0
+31
+!s108 1566768712.000000
+!s107 example_mixed1.vwf.vt|
+!s90 -work|work|example_mixed1.vwf.vt|
+!i113 1
+R4

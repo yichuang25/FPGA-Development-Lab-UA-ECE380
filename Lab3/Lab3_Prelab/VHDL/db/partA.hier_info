@@ -1,0 +1,24 @@
+|partA
+c1 => F.IN0
+c1 => F.IN0
+c1 => F.IN0
+c1 => F.IN0
+c0 => F.IN1
+c0 => F.IN1
+c0 => F.IN1
+c0 => F.IN1
+A => F.IN1
+A => F.IN1
+A => F.IN1
+A => F.IN1
+A => F.IN1
+A => F.IN1
+B => F.IN1
+B => F.IN1
+B => F.IN1
+B => F.IN1
+B => F.IN1
+B => F.IN1
+F <= F.DB_MAX_OUTPUT_PORT_TYPE
+
+

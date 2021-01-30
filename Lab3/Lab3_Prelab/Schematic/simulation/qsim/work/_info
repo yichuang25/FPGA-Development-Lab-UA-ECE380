@@ -1,0 +1,52 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dC:/ECE-380LAB/Lab3_Prelab/Schematic/simulation/qsim
+vPartB
+Z1 !s110 1568573515
+!i10b 1
+!s100 n1XdiiKoYZ_zh>^e3M1<N2
+IVORPkC313Ob^aoZUPz^C:0
+Z2 VDg1SIo80bB@j0V0VzS_@n1
+R0
+w1568573514
+8PartB.vo
+FPartB.vo
+L0 32
+Z3 OV;L;10.4d;61
+r1
+!s85 0
+31
+Z4 !s108 1568573515.000000
+!s107 PartB.vo|
+!s90 -work|work|PartB.vo|
+!i113 1
+Z5 o-work work
+n@part@b
+vPartB_vlg_vec_tst
+R1
+!i10b 1
+!s100 Z_:57M]oj4fbFF7j>I8WP2
+IXFmJ:knMUgUn9O5=[GPF[0
+R2
+R0
+w1568573513
+8partB_test.vwf.vt
+FpartB_test.vwf.vt
+L0 30
+R3
+r1
+!s85 0
+31
+R4
+!s107 partB_test.vwf.vt|
+!s90 -work|work|partB_test.vwf.vt|
+!i113 1
+R5
+n@part@b_vlg_vec_tst
